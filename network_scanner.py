@@ -46,19 +46,66 @@ def get_device_info(ip, mac):
     # Get vendor from MAC address (first 6 characters)
     vendor_mac = mac.replace(':', '').upper()[:6]
     
-    # Common ports and their services
+    # Extended list of common ports and their services
     common_ports = {
-        80: 'HTTP (Web Server)',
-        443: 'HTTPS',
+        20: 'FTP Data',
+        21: 'FTP Control',
         22: 'SSH',
-        21: 'FTP',
-        8080: 'HTTP Alternate'
+        23: 'Telnet',
+        25: 'SMTP',
+        53: 'DNS',
+        67: 'DHCP Server',
+        68: 'DHCP Client',
+        69: 'TFTP',
+        80: 'HTTP',
+        88: 'Kerberos',
+        110: 'POP3',
+        123: 'NTP',
+        137: 'NetBIOS Name',
+        138: 'NetBIOS Datagram',
+        139: 'NetBIOS Session',
+        143: 'IMAP',
+        161: 'SNMP',
+        162: 'SNMP Trap',
+        389: 'LDAP',
+        443: 'HTTPS',
+        445: 'SMB',
+        465: 'SMTPS',
+        500: 'ISAKMP',
+        514: 'Syslog',
+        515: 'LPD/LPR',
+        520: 'RIP',
+        587: 'SMTP (MSA)',
+        631: 'IPP',
+        636: 'LDAPS',
+        993: 'IMAPS',
+        995: 'POP3S',
+        1080: 'SOCKS',
+        1433: 'MSSQL',
+        1434: 'MSSQL Browser',
+        1521: 'Oracle',
+        1701: 'L2TP',
+        1723: 'PPTP',
+        1900: 'UPnP',
+        3306: 'MySQL',
+        3389: 'RDP',
+        5060: 'SIP',
+        5061: 'SIP (TLS)',
+        5432: 'PostgreSQL',
+        5900: 'VNC',
+        6379: 'Redis',
+        8080: 'HTTP Alternate',
+        8443: 'HTTPS Alternate',
+        9000: 'Jenkins',
+        9090: 'WebSphere',
+        9200: 'Elasticsearch',
+        27017: 'MongoDB'
     }
     
     open_ports = []
     for port in common_ports:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.settimeout(0.1)
+        sock.settimeout(0.1)  # Quick timeout for faster scanning
         result = sock.connect_ex((ip, port))
         if result == 0:
             open_ports.append(f"{port} ({common_ports[port]})")
@@ -72,81 +119,80 @@ def get_device_info(ip, mac):
     }
 
 def scan_network():
-    # Get local IP and create network address
+    # Get local IP and create network addresses for both common subnets
     local_ip = get_local_ip()
-    network = str(ipaddress.IPv4Network(f"{local_ip}/24", strict=False))
+    networks = ['192.168.0.0/24', '192.168.1.0/24']
     
-    print(f"Scanning network: {network}")
+    print(f"Scanning networks: {', '.join(networks)}")
+    devices = []
     
-    # Create ARP request packet
-    arp = ARP(pdst=network)
-    ether = Ether(dst="ff:ff:ff:ff:ff:ff")
-    packet = ether/arp
+    for network in networks:
+        # Create ARP request packet
+        arp = ARP(pdst=network)
+        ether = Ether(dst="ff:ff:ff:ff:ff:ff")
+        packet = ether/arp
 
-    try:
-        print("Sending ARP requests...")
-        # Increase timeout and retry count
-        result = srp(packet, timeout=10, retry=3, verbose=1)[0]
-        
-        devices = []
-        
-        print("\nProcessing responses...")
-        for sent, received in result:
-            ip = received.psrc
-            mac = received.hwsrc
-            print(f"\nAnalyzing device: {ip}")
+        try:
+            print(f"\nScanning {network}...")
+            # Increase timeout and retry count
+            result = srp(packet, timeout=5, retry=2, verbose=1)[0]
             
-            device_info = get_device_info(ip, mac)
-            devices.append({
-                'ip': ip,
-                'mac': mac,
-                'vendor': device_info['vendor'],
-                'hostname': device_info['hostname'],
-                'open_ports': device_info['open_ports'],
-                'is_router': device_info['is_router']
-            })
-            
-            print(f"Found device: {ip} ({mac})")
-            print(f"Vendor MAC: {device_info['vendor']}")
-            if device_info['open_ports']:
-                print(f"Open ports: {', '.join(device_info['open_ports'])}")
-        
-        # Additional scan for known IPs that didn't respond
-        known_ips = ['192.168.1.101', '192.168.1.102', '192.168.1.105']
-        found_ips = [device['ip'] for device in devices]
-        
-        for ip in known_ips:
-            if ip not in found_ips:
-                print(f"\nTrying additional scan for {ip}...")
-                # Create targeted ARP request
-                targeted_arp = ARP(pdst=ip)
-                targeted_packet = Ether(dst="ff:ff:ff:ff:ff:ff")/targeted_arp
-                targeted_result = srp(targeted_packet, timeout=2, verbose=0)[0]
+            print("\nProcessing responses...")
+            for sent, received in result:
+                ip = received.psrc
+                mac = received.hwsrc
+                print(f"\nAnalyzing device: {ip}")
                 
-                if targeted_result:
-                    received = targeted_result[0][1]
-                    mac = received.hwsrc
-                    device_info = get_device_info(ip, mac)
-                    devices.append({
-                        'ip': ip,
-                        'mac': mac,
-                        'vendor': device_info['vendor'],
-                        'hostname': device_info['hostname'],
-                        'open_ports': device_info['open_ports'],
-                        'is_router': device_info['is_router']
-                    })
-                    print(f"Found additional device: {ip} ({mac})")
-        
-        return devices
+                device_info = get_device_info(ip, mac)
+                devices.append({
+                    'ip': ip,
+                    'mac': mac,
+                    'vendor': device_info['vendor'],
+                    'hostname': device_info['hostname'],
+                    'open_ports': device_info['open_ports'],
+                    'is_router': device_info['is_router']
+                })
+                
+                print(f"Found device: {ip} ({mac})")
+                print(f"Vendor MAC: {device_info['vendor']}")
+                if device_info['open_ports']:
+                    print(f"Open ports: {', '.join(device_info['open_ports'])}")
+                    
+        except Exception as e:
+            print(f"Error scanning network {network}: {e}")
     
-    except Exception as e:
-        if "Permission denied" in str(e):
-            print("Error: Root privileges required!")
-            print("Please run the script with sudo:")
-            print("sudo python network_scanner.py")
-        else:
-            print(f"An error occurred: {e}")
-        return []
+    # Additional targeted scans for known IP ranges
+    known_ranges = [
+        (1, 20),    # Common device IPs
+        (100, 110), # Common device IPs
+        (254, 255)  # Broadcast and special addresses
+    ]
+    
+    for start, end in known_ranges:
+        for last_octet in range(start, end + 1):
+            for subnet in ['192.168.0', '192.168.1']:
+                ip = f"{subnet}.{last_octet}"
+                if ip not in [d['ip'] for d in devices]:
+                    print(f"\nTrying additional scan for {ip}...")
+                    targeted_arp = ARP(pdst=ip)
+                    targeted_packet = Ether(dst="ff:ff:ff:ff:ff:ff")/targeted_arp
+                    targeted_result = srp(targeted_packet, timeout=1, verbose=0)[0]
+                    
+                    if targeted_result:
+                        received = targeted_result[0][1]
+                        mac = received.hwsrc
+                        device_info = get_device_info(ip, mac)
+                        devices.append({
+                            'ip': ip,
+                            'mac': mac,
+                            'vendor': device_info['vendor'],
+                            'hostname': device_info['hostname'],
+                            'open_ports': device_info['open_ports'],
+                            'is_router': device_info['is_router']
+                        })
+                        print(f"Found additional device: {ip} ({mac})")
+    
+    return devices
 
 def main():
     print("Network Scanner Starting...")

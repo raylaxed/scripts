@@ -88,7 +88,7 @@ class NetworkMonitor:
                 
                 # Prepare log entry
                 log_entry = {
-                    'timestamp': current_time,
+                    'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     'new_devices': [{'ip': ip, 'mac': mac} for ip, mac in (current_devices - self.previous_devices)],
                     'left_devices': [{'ip': ip, 'mac': mac} for ip, mac in (self.previous_devices - current_devices)],
                     'all_devices': [{'ip': d['ip'], 'mac': d['mac']} for d in devices],

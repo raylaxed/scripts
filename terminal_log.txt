@@ -2074,3 +2074,3031 @@ Waiting 30 seconds until next scan...
 [2025-02-07 23:41:20] Scanning network...
 Scanning network: 192.168.1.0/24
 Sending ARP requests...
+
+================================================================================
+Session started at 2025-02-08 21:07:27.519051
+================================================================================
+Network Monitoring Started...
+
+[2025-02-08 21:07:27] Scanning network...
+Scanning network: 192.168.1.0/24
+Sending ARP requests...
+
+================================================================================
+Session started at 2025-02-08 21:38:48.036365
+================================================================================
+Network Monitoring Started...
+
+[2025-02-08 21:38:48] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 1845 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-54-247-146-61.eu-west-1.compute.amazonaws.com (54.247.146.61)
+
+New HTTPS connection:
+Destination: 134.224.240.217 (134.224.240.217)
+
+New HTTPS connection:
+Destination: 162.159.130.234 (162.159.130.234)
+
+New HTTPS connection:
+Destination: 151.101.66.49 (151.101.66.49)
+
+New HTTPS connection:
+Destination: 162.247.243.29 (162.247.243.29)
+
+New HTTPS connection:
+Destination: ae7984bac6e4864a2.awsglobalaccelerator.com (15.197.237.19)
+
+New HTTPS connection:
+Destination: ec2-34-205-240-177.compute-1.amazonaws.com (34.205.240.177)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.1
+  Bytes: 5235
+  Packets: 11
+IP: 192.168.0.108
+  Bytes: 21631
+  Packets: 70
+IP: 54.247.146.61
+  Bytes: 660
+  Packets: 10
+IP: 18.66.27.11
+  Bytes: 12452
+  Packets: 16
+IP: 134.224.240.217
+  Bytes: 273
+  Packets: 1
+IP: 162.159.130.234
+  Bytes: 3861
+  Packets: 4
+IP: 151.101.66.49
+  Bytes: 1662
+  Packets: 11
+IP: 162.247.243.29
+  Bytes: 1751
+  Packets: 8
+IP: 15.197.237.19
+  Bytes: 1066
+  Packets: 6
+IP: 34.205.240.177
+  Bytes: 1208
+  Packets: 6
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:40:14] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+================================================================================
+Session started at 2025-02-08 21:40:29.158626
+================================================================================
+Network Monitoring Started...
+
+[2025-02-08 21:40:29] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 3783 packets, got 4 answers, remaining 252 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.31
+Found device: 192.168.0.31 (12:44:bc:56:16:6e)
+Vendor MAC: 1244BC
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-34-225-57-63.compute-1.amazonaws.com (34.225.57.63)
+
+New HTTPS connection:
+Destination: ec2-54-247-146-61.eu-west-1.compute.amazonaws.com (54.247.146.61)
+
+New HTTPS connection:
+Destination: ec2-34-196-42-254.compute-1.amazonaws.com (34.196.42.254)
+
+New HTTPS connection:
+Destination: ec2-54-225-175-158.compute-1.amazonaws.com (54.225.175.158)
+
+New HTTPS connection:
+Destination: ec2-34-203-175-187.compute-1.amazonaws.com (34.203.175.187)
+
+New HTTPS connection:
+Destination: ec2-50-19-95-120.compute-1.amazonaws.com (50.19.95.120)
+
+New HTTPS connection:
+Destination: ec2-3-230-246-153.compute-1.amazonaws.com (3.230.246.153)
+
+New HTTPS connection:
+Destination: 62.255.158.34.bc.googleusercontent.com (34.158.255.62)
+
+New HTTPS connection:
+Destination: ec2-3-213-145-95.compute-1.amazonaws.com (3.213.145.95)
+
+New HTTPS connection:
+Destination: 162.247.243.29 (162.247.243.29)
+
+New HTTPS connection:
+Destination: ec2-54-236-92-247.compute-1.amazonaws.com (54.236.92.247)
+
+New HTTPS connection:
+Destination: 134.224.240.217 (134.224.240.217)
+
+New HTTPS connection:
+Destination: 93.243.107.34.bc.googleusercontent.com (34.107.243.93)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 17470
+  Packets: 100
+IP: 34.225.57.63
+  Bytes: 420
+  Packets: 6
+IP: 18.66.27.125
+  Bytes: 2035
+  Packets: 6
+IP: 192.168.0.31
+  Bytes: 306
+  Packets: 2
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 34.196.42.254
+  Bytes: 156
+  Packets: 2
+IP: 54.225.175.158
+  Bytes: 13717
+  Packets: 24
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 50.19.95.120
+  Bytes: 449
+  Packets: 3
+IP: 3.230.246.153
+  Bytes: 6696
+  Packets: 12
+IP: 34.158.255.62
+  Bytes: 77
+  Packets: 1
+IP: 3.213.145.95
+  Bytes: 6696
+  Packets: 12
+IP: 162.247.243.29
+  Bytes: 717
+  Packets: 5
+IP: 54.236.92.247
+  Bytes: 6965
+  Packets: 13
+IP: 192.168.0.1
+  Bytes: 88
+  Packets: 1
+IP: 34.107.243.93
+  Bytes: 156
+  Packets: 2
+IP: 134.224.240.217
+  Bytes: 66
+  Packets: 1
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:41:56] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 7983 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ae7984bac6e4864a2.awsglobalaccelerator.com (76.223.12.21)
+
+New HTTPS connection:
+Destination: ae7984bac6e4864a2.awsglobalaccelerator.com (15.197.237.19)
+
+New HTTPS connection:
+Destination: 170.201.117.34.bc.googleusercontent.com (34.117.201.170)
+
+New HTTPS connection:
+Destination: ec2-3-212-77-240.compute-1.amazonaws.com (3.212.77.240)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 19976
+  Packets: 62
+IP: 162.247.243.29
+  Bytes: 576
+  Packets: 3
+IP: 54.247.146.61
+  Bytes: 660
+  Packets: 10
+IP: 76.223.12.21
+  Bytes: 2066
+  Packets: 11
+IP: 15.197.237.19
+  Bytes: 2465
+  Packets: 13
+IP: 34.117.201.170
+  Bytes: 5136
+  Packets: 17
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 3.212.77.240
+  Bytes: 4787
+  Packets: 6
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:43:23] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 12403 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: 162.159.130.234 (162.159.130.234)
+
+New HTTPS connection:
+Destination: ec2-44-216-108-239.compute-1.amazonaws.com (44.216.108.239)
+
+New HTTPS connection:
+Destination: ec2-18-235-118-66.compute-1.amazonaws.com (18.235.118.66)
+
+New HTTPS connection:
+Destination: a5ed1f62d2db4427e.awsglobalaccelerator.com (13.248.241.7)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 14510
+  Packets: 71
+IP: 162.159.130.234
+  Bytes: 115
+  Packets: 1
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 162.247.243.29
+  Bytes: 576
+  Packets: 3
+IP: 44.216.108.239
+  Bytes: 6373
+  Packets: 15
+IP: 18.235.118.66
+  Bytes: 1759
+  Packets: 12
+IP: 13.248.241.7
+  Bytes: 6693
+  Packets: 20
+IP: 76.223.12.21
+  Bytes: 1000
+  Packets: 5
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:44:50] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 10597 packets, got 3 answers, remaining 253 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: 151.101.66.49 (151.101.66.49)
+
+New HTTPS connection:
+Destination: ec2-54-211-176-58.compute-1.amazonaws.com (54.211.176.58)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 7860
+  Packets: 47
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 134.224.240.217
+  Bytes: 273
+  Packets: 1
+IP: 151.101.66.49
+  Bytes: 178
+  Packets: 2
+IP: 54.211.176.58
+  Bytes: 5984
+  Packets: 15
+IP: 162.247.243.29
+  Bytes: 576
+  Packets: 3
+IP: 76.223.12.21
+  Bytes: 1000
+  Packets: 5
+IP: 15.197.237.19
+  Bytes: 1163
+  Packets: 7
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:46:17] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 2166 packets, got 1 answers, remaining 255 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-54-237-203-129.compute-1.amazonaws.com (54.237.203.129)
+
+New HTTPS connection:
+Destination: ec2-34-196-7-7.compute-1.amazonaws.com (34.196.7.7)
+
+New HTTPS connection:
+Destination: static.4.17.12.49.clients.your-server.de (49.12.17.4)
+
+New HTTPS connection:
+Destination: a95-101-23-73.deploy.static.akamaitechnologies.com (95.101.23.73)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 3.212.77.240
+  Bytes: 6521
+  Packets: 17
+IP: 192.168.0.108
+  Bytes: 3112573
+  Packets: 2255
+IP: 54.237.203.129
+  Bytes: 76639
+  Packets: 1030
+IP: 54.247.146.61
+  Bytes: 660
+  Packets: 10
+IP: 34.196.7.7
+  Bytes: 1662
+  Packets: 11
+IP: 54.211.176.58
+  Bytes: 2968
+  Packets: 20
+IP: 13.248.241.7
+  Bytes: 896
+  Packets: 4
+IP: 76.223.12.21
+  Bytes: 899
+  Packets: 4
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 18.66.27.11
+  Bytes: 12536
+  Packets: 17
+IP: 49.12.17.4
+  Bytes: 156
+  Packets: 2
+IP: 134.224.240.217
+  Bytes: 273
+  Packets: 1
+IP: 3.165.206.60
+  Bytes: 12349
+  Packets: 15
+IP: 95.101.23.73
+  Bytes: 2774
+  Packets: 17
+IP: 18.66.27.16
+  Bytes: 11205
+  Packets: 15
+IP: 162.247.243.29
+  Bytes: 1086
+  Packets: 5
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:47:43] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 1979 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-34-205-240-177.compute-1.amazonaws.com (34.205.240.177)
+
+New HTTPS connection:
+Destination: ec2-54-144-164-222.compute-1.amazonaws.com (54.144.164.222)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 11601
+  Packets: 48
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 34.117.201.170
+  Bytes: 4381
+  Packets: 7
+IP: 162.247.243.29
+  Bytes: 717
+  Packets: 5
+IP: 192.168.0.1
+  Bytes: 9192
+  Packets: 18
+IP: 34.205.240.177
+  Bytes: 5936
+  Packets: 11
+IP: 54.144.164.222
+  Bytes: 5936
+  Packets: 11
+IP: 49.12.17.4
+  Bytes: 156
+  Packets: 2
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:49:10] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 9331 packets, got 1 answers, remaining 255 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-34-227-136-154.compute-1.amazonaws.com (34.227.136.154)
+
+New HTTPS connection:
+Destination: ec2-18-210-181-23.compute-1.amazonaws.com (18.210.181.23)
+
+New HTTPS connection:
+Destination: ec2-52-71-56-85.compute-1.amazonaws.com (52.71.56.85)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 34.227.136.154
+  Bytes: 954
+  Packets: 8
+IP: 192.168.0.108
+  Bytes: 1519003
+  Packets: 1137
+IP: 54.144.164.222
+  Bytes: 49749
+  Packets: 508
+IP: 34.205.240.177
+  Bytes: 222
+  Packets: 3
+IP: 18.210.181.23
+  Bytes: 288
+  Packets: 4
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 76.223.12.21
+  Bytes: 2369
+  Packets: 11
+IP: 162.247.243.29
+  Bytes: 576
+  Packets: 3
+IP: 52.71.56.85
+  Bytes: 6839
+  Packets: 16
+IP: 162.159.130.234
+  Bytes: 166
+  Packets: 2
+IP: 13.248.241.7
+  Bytes: 896
+  Packets: 4
+IP: 54.237.203.129
+  Bytes: 1267
+  Packets: 2
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:50:37] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 1936 packets, got 3 answers, remaining 253 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-52-202-0-252.compute-1.amazonaws.com (52.202.0.252)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 25327
+  Packets: 68
+IP: 34.107.243.93
+  Bytes: 156
+  Packets: 2
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 162.159.130.234
+  Bytes: 166
+  Packets: 2
+IP: 49.12.17.4
+  Bytes: 5419
+  Packets: 4
+IP: 76.223.12.21
+  Bytes: 2051
+  Packets: 13
+IP: 95.101.23.73
+  Bytes: 171
+  Packets: 2
+IP: 18.66.27.9
+  Bytes: 12447
+  Packets: 16
+IP: 52.202.0.252
+  Bytes: 5696
+  Packets: 12
+IP: 162.247.243.29
+  Bytes: 576
+  Packets: 3
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:52:04] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 7007 packets, got 1 answers, remaining 255 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-34-230-234-179.compute-1.amazonaws.com (34.230.234.179)
+
+New HTTPS connection:
+Destination: a5ed1f62d2db4427e.awsglobalaccelerator.com (35.71.162.24)
+
+New HTTPS connection:
+Destination: ec2-3-221-237-231.compute-1.amazonaws.com (3.221.237.231)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 3664119
+  Packets: 2592
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 34.227.136.154
+  Bytes: 6595
+  Packets: 18
+IP: 76.223.12.21
+  Bytes: 934
+  Packets: 4
+IP: 34.230.234.179
+  Bytes: 6084
+  Packets: 15
+IP: 162.247.243.29
+  Bytes: 576
+  Packets: 3
+IP: 35.71.162.24
+  Bytes: 830
+  Packets: 3
+IP: 49.12.17.4
+  Bytes: 4489
+  Packets: 4
+IP: 15.197.237.19
+  Bytes: 1000
+  Packets: 5
+IP: 3.221.237.231
+  Bytes: 9938
+  Packets: 32
+IP: 54.237.203.129
+  Bytes: 81227
+  Packets: 1114
+IP: 162.159.130.234
+  Bytes: 173
+  Packets: 1
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:53:30] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+================================================================================
+Session started at 2025-02-08 21:53:54.701579
+================================================================================
+Network Monitoring Started...
+
+[2025-02-08 21:53:54] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 1900 packets, got 3 answers, remaining 253 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: 151.101.66.49 (151.101.66.49)
+
+New HTTPS connection:
+Destination: ec2-18-235-118-66.compute-1.amazonaws.com (18.235.118.66)
+
+New HTTPS connection:
+Destination: ec2-54-247-146-61.eu-west-1.compute.amazonaws.com (54.247.146.61)
+
+New HTTPS connection:
+Destination: 162.247.243.29 (162.247.243.29)
+
+New HTTPS connection:
+Destination: ec2-34-205-47-253.compute-1.amazonaws.com (34.205.47.253)
+
+New HTTPS connection:
+Destination: ec2-34-203-175-187.compute-1.amazonaws.com (34.203.175.187)
+
+New HTTPS connection:
+Destination: ae7984bac6e4864a2.awsglobalaccelerator.com (15.197.237.19)
+
+New HTTPS connection:
+Destination: ec2-34-225-57-63.compute-1.amazonaws.com (34.225.57.63)
+
+New HTTPS connection:
+Destination: a95-101-23-73.deploy.static.akamaitechnologies.com (95.101.23.73)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 16057
+  Packets: 64
+IP: 151.101.66.49
+  Bytes: 6691
+  Packets: 15
+IP: 54.247.146.61
+  Bytes: 1711
+  Packets: 10
+IP: 18.235.118.66
+  Bytes: 1150
+  Packets: 11
+IP: 162.247.243.29
+  Bytes: 1020
+  Packets: 4
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 15.197.237.19
+  Bytes: 1000
+  Packets: 5
+IP: 34.225.57.63
+  Bytes: 5564
+  Packets: 9
+IP: 95.101.23.73
+  Bytes: 66
+  Packets: 1
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:55:21] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 1766 packets, got 3 answers, remaining 253 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.31
+Found device: 192.168.0.31 (12:44:bc:56:16:6e)
+Vendor MAC: 1244BC
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: static.4.17.12.49.clients.your-server.de (49.12.17.4)
+
+New HTTPS connection:
+Destination: 134.224.240.217 (134.224.240.217)
+
+New HTTPS connection:
+Destination: 162.159.130.234 (162.159.130.234)
+
+New HTTPS connection:
+Destination: ec2-3-212-77-240.compute-1.amazonaws.com (3.212.77.240)
+
+New HTTPS connection:
+Destination: ec2-34-230-234-179.compute-1.amazonaws.com (34.230.234.179)
+
+New HTTPS connection:
+Destination: a5ed1f62d2db4427e.awsglobalaccelerator.com (13.248.241.7)
+
+New HTTPS connection:
+Destination: ae7984bac6e4864a2.awsglobalaccelerator.com (76.223.12.21)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 22923
+  Packets: 92
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 34.225.57.63
+  Bytes: 1592
+  Packets: 12
+IP: 49.12.17.4
+  Bytes: 156
+  Packets: 2
+IP: 134.224.240.217
+  Bytes: 273
+  Packets: 1
+IP: 18.66.27.11
+  Bytes: 12461
+  Packets: 16
+IP: 192.168.0.1
+  Bytes: 88
+  Packets: 1
+IP: 162.247.243.29
+  Bytes: 510
+  Packets: 2
+IP: 162.159.130.234
+  Bytes: 839
+  Packets: 5
+IP: 3.212.77.240
+  Bytes: 6307
+  Packets: 14
+IP: 34.230.234.179
+  Bytes: 1506
+  Packets: 9
+IP: 13.248.241.7
+  Bytes: 830
+  Packets: 3
+IP: 76.223.12.21
+  Bytes: 1066
+  Packets: 6
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:56:49] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 3968 packets, got 4 answers, remaining 252 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.31
+Found device: 192.168.0.31 (12:44:bc:56:16:6e)
+Vendor MAC: 1244BC
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+
+================================================================================
+Session started at 2025-02-08 21:57:51.110090
+================================================================================
+Network Monitoring Started...
+
+[2025-02-08 21:57:51] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 1797 packets, got 3 answers, remaining 253 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-34-196-42-254.compute-1.amazonaws.com (34.196.42.254)
+
+New HTTPS connection:
+Destination: ec2-18-210-181-23.compute-1.amazonaws.com (18.210.181.23)
+
+New HTTPS connection:
+Destination: ec2-54-247-146-61.eu-west-1.compute.amazonaws.com (54.247.146.61)
+
+New HTTPS connection:
+Destination: 162.247.241.14 (162.247.241.14)
+
+New HTTPS connection:
+Destination: static.4.17.12.49.clients.your-server.de (49.12.17.4)
+
+New HTTPS connection:
+Destination: 134.224.240.217 (134.224.240.217)
+
+New HTTPS connection:
+Destination: ec2-3-234-21-215.compute-1.amazonaws.com (3.234.21.215)
+
+New HTTPS connection:
+Destination: ec2-34-205-47-253.compute-1.amazonaws.com (34.205.47.253)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 8211
+  Packets: 58
+IP: 34.196.42.254
+  Bytes: 420
+  Packets: 6
+IP: 18.210.181.23
+  Bytes: 420
+  Packets: 6
+IP: 162.247.241.14
+  Bytes: 715
+  Packets: 4
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 49.12.17.4
+  Bytes: 156
+  Packets: 2
+IP: 192.168.0.1
+  Bytes: 88
+  Packets: 1
+IP: 134.224.240.217
+  Bytes: 405
+  Packets: 3
+IP: 3.234.21.215
+  Bytes: 1514
+  Packets: 7
+IP: 34.205.47.253
+  Bytes: 6752
+  Packets: 11
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 21:59:18] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 1704 packets, got 4 answers, remaining 252 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.31
+Found device: 192.168.0.31 (12:44:bc:56:16:6e)
+Vendor MAC: 1244BC
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ae7984bac6e4864a2.awsglobalaccelerator.com (76.223.12.21)
+
+New HTTPS connection:
+Destination: ec2-44-216-108-239.compute-1.amazonaws.com (44.216.108.239)
+
+New HTTPS connection:
+Destination: 162.159.130.234 (162.159.130.234)
+
+New HTTPS connection:
+Destination: ec2-34-231-115-189.compute-1.amazonaws.com (34.231.115.189)
+
+New HTTPS connection:
+Destination: ec2-34-207-47-143.compute-1.amazonaws.com (34.207.47.143)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 15795
+  Packets: 73
+IP: 54.247.146.61
+  Bytes: 1711
+  Packets: 10
+IP: 76.223.12.21
+  Bytes: 767
+  Packets: 2
+IP: 162.159.130.234
+  Bytes: 484
+  Packets: 1
+IP: 44.216.108.239
+  Bytes: 420
+  Packets: 6
+IP: 162.247.241.14
+  Bytes: 715
+  Packets: 4
+IP: 49.12.17.4
+  Bytes: 8572
+  Packets: 9
+IP: 134.224.240.217
+  Bytes: 405
+  Packets: 3
+IP: 34.231.115.189
+  Bytes: 11595
+  Packets: 18
+IP: 34.207.47.143
+  Bytes: 440
+  Packets: 3
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:00:45] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 2132 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-184-73-193-73.compute-1.amazonaws.com (184.73.193.73)
+
+New HTTPS connection:
+Destination: ec2-34-203-175-187.compute-1.amazonaws.com (34.203.175.187)
+
+New HTTPS connection:
+Destination: 151.101.66.49 (151.101.66.49)
+
+New HTTPS connection:
+Destination: ec2-52-202-0-252.compute-1.amazonaws.com (52.202.0.252)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 54.247.146.61
+  Bytes: 660
+  Packets: 10
+IP: 192.168.0.108
+  Bytes: 7591
+  Packets: 55
+IP: 184.73.193.73
+  Bytes: 1152
+  Packets: 16
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 162.247.241.14
+  Bytes: 715
+  Packets: 4
+IP: 192.168.0.1
+  Bytes: 9192
+  Packets: 18
+IP: 34.117.201.170
+  Bytes: 3715
+  Packets: 8
+IP: 151.101.66.49
+  Bytes: 178
+  Packets: 2
+IP: 49.12.17.4
+  Bytes: 7940
+  Packets: 8
+IP: 134.224.240.217
+  Bytes: 405
+  Packets: 3
+IP: 52.202.0.252
+  Bytes: 317
+  Packets: 4
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:02:12] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 6384 packets, got 3 answers, remaining 253 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: 40.74.98.195 (40.74.98.195)
+
+New HTTPS connection:
+Destination: ec2-3-231-12-47.compute-1.amazonaws.com (3.231.12.47)
+
+New HTTPS connection:
+Destination: ec2-34-205-240-177.compute-1.amazonaws.com (34.205.240.177)
+
+New HTTPS connection:
+Destination: ec2-34-196-7-7.compute-1.amazonaws.com (34.196.7.7)
+
+New HTTPS connection:
+Destination: a5ed1f62d2db4427e.awsglobalaccelerator.com (13.248.241.7)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 79591
+  Packets: 187
+IP: 3.231.12.47
+  Bytes: 156
+  Packets: 2
+IP: 40.74.98.195
+  Bytes: 264
+  Packets: 4
+IP: 76.223.12.21
+  Bytes: 12016
+  Packets: 50
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 49.12.17.4
+  Bytes: 6530
+  Packets: 5
+IP: 162.159.130.234
+  Bytes: 297
+  Packets: 3
+IP: 34.205.240.177
+  Bytes: 12890
+  Packets: 31
+IP: 17.57.146.56
+  Bytes: 132
+  Packets: 2
+IP: 162.247.241.14
+  Bytes: 649
+  Packets: 3
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 34.196.7.7
+  Bytes: 1662
+  Packets: 11
+IP: 34.117.201.170
+  Bytes: 3778
+  Packets: 9
+IP: 13.248.241.7
+  Bytes: 830
+  Packets: 3
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:03:39] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 2201 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.31
+Found device: 192.168.0.31 (12:44:bc:56:16:6e)
+Vendor MAC: 1244BC
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: 17.156.129.37 (17.156.129.37)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 12398
+  Packets: 39
+IP: 54.247.146.61
+  Bytes: 528
+  Packets: 8
+IP: 162.159.130.234
+  Bytes: 166
+  Packets: 2
+IP: 17.57.146.56
+  Bytes: 264
+  Packets: 4
+IP: 162.247.241.14
+  Bytes: 866
+  Packets: 6
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 17.156.129.37
+  Bytes: 9443
+  Packets: 12
+IP: 192.168.0.1
+  Bytes: 7597
+  Packets: 15
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:05:06] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 1988 packets, got 3 answers, remaining 253 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-18-235-118-66.compute-1.amazonaws.com (18.235.118.66)
+
+New HTTPS connection:
+Destination: 162.247.243.29 (162.247.243.29)
+
+New HTTPS connection:
+Destination: a5ed1f62d2db4427e.awsglobalaccelerator.com (35.71.162.24)
+
+New HTTPS connection:
+Destination: ae7984bac6e4864a2.awsglobalaccelerator.com (15.197.237.19)
+
+New HTTPS connection:
+Destination: a23-62-221-77.deploy.static.akamaitechnologies.com (23.62.221.77)
+
+New HTTPS connection:
+Destination: ec2-52-211-47-154.eu-west-1.compute.amazonaws.com (52.211.47.154)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 3.231.12.47
+  Bytes: 222
+  Packets: 3
+IP: 18.235.118.66
+  Bytes: 1031
+  Packets: 9
+IP: 192.168.0.108
+  Bytes: 11536
+  Packets: 74
+IP: 162.247.243.29
+  Bytes: 510
+  Packets: 2
+IP: 35.71.162.24
+  Bytes: 896
+  Packets: 4
+IP: 15.197.237.19
+  Bytes: 1000
+  Packets: 5
+IP: 52.211.47.154
+  Bytes: 673
+  Packets: 2
+IP: 23.62.221.77
+  Bytes: 6786
+  Packets: 9
+IP: 76.223.12.21
+  Bytes: 1000
+  Packets: 5
+IP: 49.12.17.4
+  Bytes: 64521
+  Packets: 46
+IP: 44.216.108.239
+  Bytes: 74
+  Packets: 1
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:06:33] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 2083 packets, got 3 answers, remaining 253 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Analyzing device: 192.168.0.31
+Found device: 192.168.0.31 (12:44:bc:56:16:6e)
+Vendor MAC: 1244BC
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-3-212-77-240.compute-1.amazonaws.com (3.212.77.240)
+
+New HTTPS connection:
+Destination: 62.255.158.34.bc.googleusercontent.com (34.158.255.62)
+
+New HTTPS connection:
+Destination: ec2-3-213-145-95.compute-1.amazonaws.com (3.213.145.95)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 5947
+  Packets: 28
+IP: 3.212.77.240
+  Bytes: 156
+  Packets: 2
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 34.158.255.62
+  Bytes: 77
+  Packets: 1
+IP: 162.247.243.29
+  Bytes: 783
+  Packets: 6
+IP: 34.117.188.166
+  Bytes: 12379
+  Packets: 14
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:08:01] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 2154 packets, got 3 answers, remaining 253 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.31
+Found device: 192.168.0.31 (12:44:bc:56:16:6e)
+Vendor MAC: 1244BC
+
+Analyzing device: 192.168.0.108
+Found device: 192.168.0.108 (5c:e9:1e:6d:74:8d)
+Vendor MAC: 5CE91E
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-54-237-203-129.compute-1.amazonaws.com (54.237.203.129)
+
+New HTTPS connection:
+Destination: ec2-54-211-176-58.compute-1.amazonaws.com (54.211.176.58)
+
+New HTTPS connection:
+Destination: ec2-35-172-8-11.compute-1.amazonaws.com (35.172.8.11)
+
+New HTTPS connection:
+Destination: ec2-34-225-57-63.compute-1.amazonaws.com (34.225.57.63)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 3.231.12.47
+  Bytes: 420
+  Packets: 6
+IP: 192.168.0.108
+  Bytes: 222788
+  Packets: 275
+IP: 54.247.146.61
+  Bytes: 660
+  Packets: 10
+IP: 54.237.203.129
+  Bytes: 299
+  Packets: 4
+IP: 34.203.175.187
+  Bytes: 105
+  Packets: 1
+IP: 54.211.176.58
+  Bytes: 6373
+  Packets: 15
+IP: 35.172.8.11
+  Bytes: 1506
+  Packets: 9
+IP: 35.71.162.24
+  Bytes: 896
+  Packets: 4
+IP: 162.247.241.14
+  Bytes: 5628
+  Packets: 8
+IP: 15.197.237.19
+  Bytes: 2196
+  Packets: 9
+IP: 34.225.57.63
+  Bytes: 14270
+  Packets: 35
+IP: 18.66.27.9
+  Bytes: 12534
+  Packets: 17
+IP: 18.235.118.66
+  Bytes: 8213
+  Packets: 51
+IP: 76.223.12.21
+  Bytes: 934
+  Packets: 4
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:09:28] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+Received 3829 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.1.105...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: 104.208.16.95 (104.208.16.95)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 35.172.8.11
+  Bytes: 7461
+  Packets: 29
+IP: 192.168.0.108
+  Bytes: 15211
+  Packets: 90
+IP: 162.159.130.234
+  Bytes: 604
+  Packets: 4
+IP: 54.247.146.61
+  Bytes: 594
+  Packets: 9
+IP: 13.248.241.7
+  Bytes: 896
+  Packets: 4
+IP: 76.223.12.21
+  Bytes: 1000
+  Packets: 5
+IP: 34.207.47.143
+  Bytes: 5984
+  Packets: 15
+IP: 162.247.241.14
+  Bytes: 715
+  Packets: 4
+IP: 34.203.175.187
+  Bytes: 105
+  Packets: 1
+IP: 104.208.16.95
+  Bytes: 5912
+  Packets: 11
+IP: 34.158.255.62
+  Bytes: 77
+  Packets: 1
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:10:55] Scanning network...
+Scanning network: 192.168.0.0/24
+Sending ARP requests...
+
+================================================================================
+Session started at 2025-02-08 22:11:19.237187
+================================================================================
+Network Monitoring Started...
+
+[2025-02-08 22:11:19] Scanning network...
+Scanning networks: 192.168.0.0/24, 192.168.1.0/24
+
+Scanning 192.168.0.0/24...
+
+Received 938 packets, got 1 answers, remaining 255 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Scanning 192.168.1.0/24...
+
+Received 906 packets, got 0 answers, remaining 256 packets
+
+Processing responses...
+
+Trying additional scan for 192.168.1.1...
+
+Trying additional scan for 192.168.0.2...
+
+Trying additional scan for 192.168.1.2...
+
+Trying additional scan for 192.168.0.3...
+
+Trying additional scan for 192.168.1.3...
+
+Trying additional scan for 192.168.0.4...
+
+Trying additional scan for 192.168.1.4...
+
+Trying additional scan for 192.168.0.5...
+
+Trying additional scan for 192.168.1.5...
+
+Trying additional scan for 192.168.0.6...
+
+Trying additional scan for 192.168.1.6...
+
+Trying additional scan for 192.168.0.7...
+
+Trying additional scan for 192.168.1.7...
+
+Trying additional scan for 192.168.0.8...
+
+Trying additional scan for 192.168.1.8...
+
+Trying additional scan for 192.168.0.9...
+
+Trying additional scan for 192.168.1.9...
+
+Trying additional scan for 192.168.0.10...
+
+Trying additional scan for 192.168.1.10...
+
+Trying additional scan for 192.168.0.11...
+
+Trying additional scan for 192.168.1.11...
+
+Trying additional scan for 192.168.0.12...
+
+Trying additional scan for 192.168.1.12...
+
+Trying additional scan for 192.168.0.13...
+
+Trying additional scan for 192.168.1.13...
+
+Trying additional scan for 192.168.0.14...
+
+Trying additional scan for 192.168.1.14...
+
+Trying additional scan for 192.168.0.15...
+
+================================================================================
+Session started at 2025-02-08 22:14:25.889533
+================================================================================
+Network Monitoring Started...
+
+[2025-02-08 22:14:25] Scanning network...
+Scanning networks: 192.168.0.0/24, 192.168.1.0/24
+
+Scanning 192.168.0.0/24...
+
+Received 1231 packets, got 1 answers, remaining 255 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Scanning 192.168.1.0/24...
+
+Received 1194 packets, got 0 answers, remaining 256 packets
+
+Processing responses...
+
+Trying additional scan for 192.168.1.1...
+
+Trying additional scan for 192.168.0.2...
+
+Trying additional scan for 192.168.1.2...
+
+Trying additional scan for 192.168.0.3...
+
+Trying additional scan for 192.168.1.3...
+
+Trying additional scan for 192.168.0.4...
+
+Trying additional scan for 192.168.1.4...
+
+Trying additional scan for 192.168.0.5...
+
+Trying additional scan for 192.168.1.5...
+
+Trying additional scan for 192.168.0.6...
+
+Trying additional scan for 192.168.1.6...
+
+Trying additional scan for 192.168.0.7...
+
+Trying additional scan for 192.168.1.7...
+
+Trying additional scan for 192.168.0.8...
+
+Trying additional scan for 192.168.1.8...
+
+Trying additional scan for 192.168.0.9...
+
+Trying additional scan for 192.168.1.9...
+
+Trying additional scan for 192.168.0.10...
+
+Trying additional scan for 192.168.1.10...
+
+Trying additional scan for 192.168.0.11...
+
+Trying additional scan for 192.168.1.11...
+
+Trying additional scan for 192.168.0.12...
+
+Trying additional scan for 192.168.1.12...
+
+Trying additional scan for 192.168.0.13...
+
+Trying additional scan for 192.168.1.13...
+
+Trying additional scan for 192.168.0.14...
+
+Trying additional scan for 192.168.1.14...
+
+Trying additional scan for 192.168.0.15...
+
+Trying additional scan for 192.168.1.15...
+
+Trying additional scan for 192.168.0.16...
+
+Trying additional scan for 192.168.1.16...
+
+Trying additional scan for 192.168.0.17...
+
+Trying additional scan for 192.168.1.17...
+
+Trying additional scan for 192.168.0.18...
+
+Trying additional scan for 192.168.1.18...
+
+Trying additional scan for 192.168.0.19...
+
+Trying additional scan for 192.168.1.19...
+
+Trying additional scan for 192.168.0.20...
+
+Trying additional scan for 192.168.1.20...
+
+Trying additional scan for 192.168.0.100...
+
+Trying additional scan for 192.168.1.100...
+
+Trying additional scan for 192.168.0.101...
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.0.102...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.0.103...
+
+Trying additional scan for 192.168.1.103...
+
+Trying additional scan for 192.168.0.104...
+
+Trying additional scan for 192.168.1.104...
+
+Trying additional scan for 192.168.0.105...
+
+Trying additional scan for 192.168.1.105...
+
+Trying additional scan for 192.168.0.106...
+
+Trying additional scan for 192.168.1.106...
+
+Trying additional scan for 192.168.0.107...
+
+Trying additional scan for 192.168.1.107...
+
+Trying additional scan for 192.168.0.108...
+
+Trying additional scan for 192.168.1.108...
+
+Trying additional scan for 192.168.0.109...
+
+Trying additional scan for 192.168.1.109...
+
+Trying additional scan for 192.168.0.110...
+
+Trying additional scan for 192.168.1.110...
+
+Trying additional scan for 192.168.0.254...
+
+Trying additional scan for 192.168.1.254...
+
+Trying additional scan for 192.168.0.255...
+
+Trying additional scan for 192.168.1.255...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-34-203-175-187.compute-1.amazonaws.com (34.203.175.187)
+
+New HTTPS connection:
+Destination: 162.247.243.29 (162.247.243.29)
+
+New HTTPS connection:
+Destination: ec2-54-75-196-242.eu-west-1.compute.amazonaws.com (54.75.196.242)
+
+New HTTPS connection:
+Destination: 162.247.241.14 (162.247.241.14)
+
+New HTTPS connection:
+Destination: 170.201.117.34.bc.googleusercontent.com (34.117.201.170)
+
+New HTTPS connection:
+Destination: 53.16.211.130.bc.googleusercontent.com (130.211.16.53)
+
+New HTTPS connection:
+Destination: static.4.17.12.49.clients.your-server.de (49.12.17.4)
+
+New HTTPS connection:
+Destination: 162.159.130.234 (162.159.130.234)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 34.203.175.187
+  Bytes: 105
+  Packets: 1
+IP: 192.168.0.108
+  Bytes: 5793
+  Packets: 31
+IP: 162.247.243.29
+  Bytes: 510
+  Packets: 2
+IP: 54.75.196.242
+  Bytes: 1707
+  Packets: 10
+IP: 162.247.241.14
+  Bytes: 132
+  Packets: 2
+IP: 34.117.201.170
+  Bytes: 66
+  Packets: 1
+IP: 130.211.16.53
+  Bytes: 66
+  Packets: 1
+IP: 49.12.17.4
+  Bytes: 156
+  Packets: 2
+IP: 162.159.130.234
+  Bytes: 166
+  Packets: 2
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:16:43] Scanning network...
+Scanning networks: 192.168.0.0/24, 192.168.1.0/24
+
+Scanning 192.168.0.0/24...
+
+Received 3881 packets, got 1 answers, remaining 255 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Scanning 192.168.1.0/24...
+
+Received 1102 packets, got 0 answers, remaining 256 packets
+
+Processing responses...
+
+Trying additional scan for 192.168.1.1...
+
+Trying additional scan for 192.168.0.2...
+
+Trying additional scan for 192.168.1.2...
+
+Trying additional scan for 192.168.0.3...
+
+Trying additional scan for 192.168.1.3...
+
+Trying additional scan for 192.168.0.4...
+
+Trying additional scan for 192.168.1.4...
+
+Trying additional scan for 192.168.0.5...
+
+Trying additional scan for 192.168.1.5...
+
+Trying additional scan for 192.168.0.6...
+
+Trying additional scan for 192.168.1.6...
+
+Trying additional scan for 192.168.0.7...
+
+Trying additional scan for 192.168.1.7...
+
+Trying additional scan for 192.168.0.8...
+
+Trying additional scan for 192.168.1.8...
+
+Trying additional scan for 192.168.0.9...
+
+Trying additional scan for 192.168.1.9...
+
+Trying additional scan for 192.168.0.10...
+
+Trying additional scan for 192.168.1.10...
+
+Trying additional scan for 192.168.0.11...
+
+Trying additional scan for 192.168.1.11...
+
+Trying additional scan for 192.168.0.12...
+
+Trying additional scan for 192.168.1.12...
+
+Trying additional scan for 192.168.0.13...
+
+Trying additional scan for 192.168.1.13...
+
+Trying additional scan for 192.168.0.14...
+
+Trying additional scan for 192.168.1.14...
+
+Trying additional scan for 192.168.0.15...
+
+================================================================================
+Session started at 2025-02-08 22:23:33.828007
+================================================================================
+Network Monitoring Started...
+
+[2025-02-08 22:23:33] Scanning network...
+Scanning networks: 192.168.0.0/24, 192.168.1.0/24
+
+Scanning 192.168.0.0/24...
+
+Received 1352 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.31
+Found device: 192.168.0.31 (12:44:bc:56:16:6e)
+Vendor MAC: 1244BC
+
+Scanning 192.168.1.0/24...
+
+Received 1244 packets, got 0 answers, remaining 256 packets
+
+Processing responses...
+
+Trying additional scan for 192.168.1.1...
+
+Trying additional scan for 192.168.0.2...
+
+Trying additional scan for 192.168.1.2...
+
+Trying additional scan for 192.168.0.3...
+
+Trying additional scan for 192.168.1.3...
+
+Trying additional scan for 192.168.0.4...
+
+Trying additional scan for 192.168.1.4...
+
+Trying additional scan for 192.168.0.5...
+
+Trying additional scan for 192.168.1.5...
+
+Trying additional scan for 192.168.0.6...
+
+Trying additional scan for 192.168.1.6...
+
+Trying additional scan for 192.168.0.7...
+
+Trying additional scan for 192.168.1.7...
+
+Trying additional scan for 192.168.0.8...
+
+Trying additional scan for 192.168.1.8...
+
+Trying additional scan for 192.168.0.9...
+
+Trying additional scan for 192.168.1.9...
+
+Trying additional scan for 192.168.0.10...
+
+Trying additional scan for 192.168.1.10...
+
+Trying additional scan for 192.168.0.11...
+
+Trying additional scan for 192.168.1.11...
+
+Trying additional scan for 192.168.0.12...
+
+Trying additional scan for 192.168.1.12...
+
+Trying additional scan for 192.168.0.13...
+
+Trying additional scan for 192.168.1.13...
+
+Trying additional scan for 192.168.0.14...
+
+Trying additional scan for 192.168.1.14...
+
+Trying additional scan for 192.168.0.15...
+
+Trying additional scan for 192.168.1.15...
+
+Trying additional scan for 192.168.0.16...
+
+Trying additional scan for 192.168.1.16...
+
+Trying additional scan for 192.168.0.17...
+
+Trying additional scan for 192.168.1.17...
+
+Trying additional scan for 192.168.0.18...
+
+Trying additional scan for 192.168.1.18...
+
+Trying additional scan for 192.168.0.19...
+
+Trying additional scan for 192.168.1.19...
+
+Trying additional scan for 192.168.0.20...
+
+Trying additional scan for 192.168.1.20...
+
+Trying additional scan for 192.168.0.100...
+
+Trying additional scan for 192.168.1.100...
+
+Trying additional scan for 192.168.0.101...
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.0.102...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.0.103...
+
+Trying additional scan for 192.168.1.103...
+
+Trying additional scan for 192.168.0.104...
+
+Trying additional scan for 192.168.1.104...
+
+Trying additional scan for 192.168.0.105...
+
+Trying additional scan for 192.168.1.105...
+
+Trying additional scan for 192.168.0.106...
+
+Trying additional scan for 192.168.1.106...
+
+Trying additional scan for 192.168.0.107...
+
+Trying additional scan for 192.168.1.107...
+
+Trying additional scan for 192.168.0.108...
+
+Trying additional scan for 192.168.1.108...
+
+Trying additional scan for 192.168.0.109...
+
+Trying additional scan for 192.168.1.109...
+
+Trying additional scan for 192.168.0.110...
+
+Trying additional scan for 192.168.1.110...
+
+Trying additional scan for 192.168.0.254...
+
+Trying additional scan for 192.168.1.254...
+
+Trying additional scan for 192.168.0.255...
+
+Trying additional scan for 192.168.1.255...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-54-75-196-242.eu-west-1.compute.amazonaws.com (54.75.196.242)
+
+New HTTPS connection:
+Destination: ec2-34-227-136-154.compute-1.amazonaws.com (34.227.136.154)
+
+New HTTPS connection:
+Destination: 134.224.240.217 (134.224.240.217)
+
+New HTTPS connection:
+Destination: 162.247.243.29 (162.247.243.29)
+
+New HTTPS connection:
+Destination: ec2-54-144-164-222.compute-1.amazonaws.com (54.144.164.222)
+
+New HTTPS connection:
+Destination: a5ed1f62d2db4427e.awsglobalaccelerator.com (13.248.241.7)
+
+New HTTPS connection:
+Destination: ae7984bac6e4864a2.awsglobalaccelerator.com (76.223.12.21)
+
+New HTTPS connection:
+Destination: static.4.17.12.49.clients.your-server.de (49.12.17.4)
+
+New HTTPS connection:
+Destination: ec2-34-203-175-187.compute-1.amazonaws.com (34.203.175.187)
+
+New HTTPS connection:
+Destination: 170.201.117.34.bc.googleusercontent.com (34.117.201.170)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 11944
+  Packets: 70
+IP: 54.75.196.242
+  Bytes: 594
+  Packets: 9
+IP: 34.227.136.154
+  Bytes: 13046
+  Packets: 33
+IP: 162.247.243.29
+  Bytes: 510
+  Packets: 2
+IP: 134.224.240.217
+  Bytes: 339
+  Packets: 2
+IP: 54.144.164.222
+  Bytes: 854
+  Packets: 6
+IP: 13.248.241.7
+  Bytes: 830
+  Packets: 3
+IP: 76.223.12.21
+  Bytes: 1066
+  Packets: 6
+IP: 192.168.0.1
+  Bytes: 88
+  Packets: 1
+IP: 49.12.17.4
+  Bytes: 7305
+  Packets: 6
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 34.117.201.170
+  Bytes: 66
+  Packets: 1
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:25:51] Scanning network...
+Scanning networks: 192.168.0.0/24, 192.168.1.0/24
+
+Scanning 192.168.0.0/24...
+
+Received 984 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Scanning 192.168.1.0/24...
+
+Received 1175 packets, got 0 answers, remaining 256 packets
+
+Processing responses...
+
+Trying additional scan for 192.168.1.1...
+
+Trying additional scan for 192.168.0.2...
+
+Trying additional scan for 192.168.1.2...
+
+Trying additional scan for 192.168.0.3...
+
+Trying additional scan for 192.168.1.3...
+
+Trying additional scan for 192.168.0.4...
+
+Trying additional scan for 192.168.1.4...
+
+Trying additional scan for 192.168.0.5...
+
+Trying additional scan for 192.168.1.5...
+
+Trying additional scan for 192.168.0.6...
+
+Trying additional scan for 192.168.1.6...
+
+Trying additional scan for 192.168.0.7...
+
+Trying additional scan for 192.168.1.7...
+
+Trying additional scan for 192.168.0.8...
+
+Trying additional scan for 192.168.1.8...
+
+Trying additional scan for 192.168.0.9...
+
+Trying additional scan for 192.168.1.9...
+
+Trying additional scan for 192.168.0.10...
+
+Trying additional scan for 192.168.1.10...
+
+Trying additional scan for 192.168.0.11...
+
+Trying additional scan for 192.168.1.11...
+
+Trying additional scan for 192.168.0.12...
+
+Trying additional scan for 192.168.1.12...
+
+Trying additional scan for 192.168.0.13...
+
+Trying additional scan for 192.168.1.13...
+
+Trying additional scan for 192.168.0.14...
+
+Trying additional scan for 192.168.1.14...
+
+Trying additional scan for 192.168.0.15...
+
+Trying additional scan for 192.168.1.15...
+
+Trying additional scan for 192.168.0.16...
+
+Trying additional scan for 192.168.1.16...
+
+Trying additional scan for 192.168.0.17...
+
+Trying additional scan for 192.168.1.17...
+
+Trying additional scan for 192.168.0.18...
+
+Trying additional scan for 192.168.1.18...
+
+Trying additional scan for 192.168.0.19...
+
+Trying additional scan for 192.168.1.19...
+
+Trying additional scan for 192.168.0.20...
+
+Trying additional scan for 192.168.1.20...
+
+Trying additional scan for 192.168.0.100...
+
+Trying additional scan for 192.168.1.100...
+
+Trying additional scan for 192.168.0.101...
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.0.102...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.0.103...
+
+Trying additional scan for 192.168.1.103...
+
+Trying additional scan for 192.168.0.104...
+
+Trying additional scan for 192.168.1.104...
+
+Trying additional scan for 192.168.0.105...
+
+Trying additional scan for 192.168.1.105...
+
+Trying additional scan for 192.168.0.106...
+
+Trying additional scan for 192.168.1.106...
+
+Trying additional scan for 192.168.0.107...
+
+Trying additional scan for 192.168.1.107...
+
+Trying additional scan for 192.168.0.108...
+
+Trying additional scan for 192.168.1.108...
+
+Trying additional scan for 192.168.0.109...
+
+Trying additional scan for 192.168.1.109...
+
+Trying additional scan for 192.168.0.110...
+
+Trying additional scan for 192.168.1.110...
+
+Trying additional scan for 192.168.0.254...
+
+Trying additional scan for 192.168.1.254...
+
+Trying additional scan for 192.168.0.255...
+
+Trying additional scan for 192.168.1.255...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: 151.101.66.49 (151.101.66.49)
+
+New HTTPS connection:
+Destination: ec2-54-236-92-247.compute-1.amazonaws.com (54.236.92.247)
+
+New HTTPS connection:
+Destination: 162.159.130.234 (162.159.130.234)
+
+New HTTPS connection:
+Destination: a5ed1f62d2db4427e.awsglobalaccelerator.com (35.71.162.24)
+
+New HTTPS connection:
+Destination: ae7984bac6e4864a2.awsglobalaccelerator.com (15.197.237.19)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.171
+  Bytes: 2847
+  Packets: 14
+IP: 192.168.0.108
+  Bytes: 18308
+  Packets: 77
+IP: 18.66.27.11
+  Bytes: 12539
+  Packets: 17
+IP: 54.75.196.242
+  Bytes: 594
+  Packets: 9
+IP: 151.101.66.49
+  Bytes: 427
+  Packets: 6
+IP: 34.227.136.154
+  Bytes: 2083
+  Packets: 13
+IP: 162.159.130.234
+  Bytes: 156
+  Packets: 1
+IP: 162.247.243.29
+  Bytes: 576
+  Packets: 3
+IP: 54.144.164.222
+  Bytes: 854
+  Packets: 6
+IP: 35.71.162.24
+  Bytes: 896
+  Packets: 4
+IP: 76.223.12.21
+  Bytes: 1833
+  Packets: 8
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 192.168.0.1
+  Bytes: 8653
+  Packets: 17
+IP: 15.197.237.19
+  Bytes: 1000
+  Packets: 5
+IP: 49.12.17.4
+  Bytes: 156
+  Packets: 2
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:28:10] Scanning network...
+Scanning networks: 192.168.0.0/24, 192.168.1.0/24
+
+Scanning 192.168.0.0/24...
+
+Received 1040 packets, got 1 answers, remaining 255 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Scanning 192.168.1.0/24...
+
+Received 1096 packets, got 0 answers, remaining 256 packets
+
+Processing responses...
+
+Trying additional scan for 192.168.1.1...
+
+Trying additional scan for 192.168.0.2...
+
+Trying additional scan for 192.168.1.2...
+
+Trying additional scan for 192.168.0.3...
+
+Trying additional scan for 192.168.1.3...
+
+Trying additional scan for 192.168.0.4...
+
+Trying additional scan for 192.168.1.4...
+
+Trying additional scan for 192.168.0.5...
+
+Trying additional scan for 192.168.1.5...
+
+Trying additional scan for 192.168.0.6...
+
+Trying additional scan for 192.168.1.6...
+
+Trying additional scan for 192.168.0.7...
+
+Trying additional scan for 192.168.1.7...
+
+Trying additional scan for 192.168.0.8...
+
+Trying additional scan for 192.168.1.8...
+
+Trying additional scan for 192.168.0.9...
+
+Trying additional scan for 192.168.1.9...
+
+Trying additional scan for 192.168.0.10...
+
+Trying additional scan for 192.168.1.10...
+
+Trying additional scan for 192.168.0.11...
+
+Trying additional scan for 192.168.1.11...
+
+Trying additional scan for 192.168.0.12...
+
+Trying additional scan for 192.168.1.12...
+
+Trying additional scan for 192.168.0.13...
+
+Trying additional scan for 192.168.1.13...
+
+Trying additional scan for 192.168.0.14...
+
+Trying additional scan for 192.168.1.14...
+
+Trying additional scan for 192.168.0.15...
+
+Trying additional scan for 192.168.1.15...
+
+Trying additional scan for 192.168.0.16...
+
+Trying additional scan for 192.168.1.16...
+
+Trying additional scan for 192.168.0.17...
+
+Trying additional scan for 192.168.1.17...
+
+Trying additional scan for 192.168.0.18...
+
+Trying additional scan for 192.168.1.18...
+
+Trying additional scan for 192.168.0.19...
+
+Trying additional scan for 192.168.1.19...
+
+Trying additional scan for 192.168.0.20...
+
+Trying additional scan for 192.168.1.20...
+
+Trying additional scan for 192.168.0.100...
+
+Trying additional scan for 192.168.1.100...
+
+Trying additional scan for 192.168.0.101...
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.0.102...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.0.103...
+
+Trying additional scan for 192.168.1.103...
+
+Trying additional scan for 192.168.0.104...
+
+Trying additional scan for 192.168.1.104...
+
+Trying additional scan for 192.168.0.105...
+
+Trying additional scan for 192.168.1.105...
+
+Trying additional scan for 192.168.0.106...
+
+Trying additional scan for 192.168.1.106...
+
+Trying additional scan for 192.168.0.107...
+
+Trying additional scan for 192.168.1.107...
+
+Trying additional scan for 192.168.0.108...
+
+Trying additional scan for 192.168.1.108...
+
+Trying additional scan for 192.168.0.109...
+
+Trying additional scan for 192.168.1.109...
+
+Trying additional scan for 192.168.0.110...
+
+Trying additional scan for 192.168.1.110...
+
+Trying additional scan for 192.168.0.254...
+
+Trying additional scan for 192.168.1.254...
+
+Trying additional scan for 192.168.0.255...
+
+Trying additional scan for 192.168.1.255...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-34-225-57-63.compute-1.amazonaws.com (34.225.57.63)
+
+New HTTPS connection:
+Destination: 17.8.152.174 (17.8.152.174)
+
+New HTTPS connection:
+Destination: 17.156.128.11 (17.156.128.11)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 34.203.175.187
+  Bytes: 66
+  Packets: 1
+IP: 192.168.0.108
+  Bytes: 35957
+  Packets: 135
+IP: 54.75.196.242
+  Bytes: 594
+  Packets: 9
+IP: 34.225.57.63
+  Bytes: 18808
+  Packets: 45
+IP: 54.144.164.222
+  Bytes: 854
+  Packets: 6
+IP: 17.156.128.11
+  Bytes: 23122
+  Packets: 30
+IP: 17.8.152.174
+  Bytes: 5270
+  Packets: 16
+IP: 35.71.162.24
+  Bytes: 896
+  Packets: 4
+IP: 15.197.237.19
+  Bytes: 899
+  Packets: 4
+IP: 162.247.243.29
+  Bytes: 576
+  Packets: 3
+IP: 162.159.130.234
+  Bytes: 166
+  Packets: 2
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:30:28] Scanning network...
+Scanning networks: 192.168.0.0/24, 192.168.1.0/24
+
+Scanning 192.168.0.0/24...
+
+Received 1167 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Scanning 192.168.1.0/24...
+
+Received 1162 packets, got 0 answers, remaining 256 packets
+
+Processing responses...
+
+Trying additional scan for 192.168.1.1...
+
+Trying additional scan for 192.168.0.2...
+
+Trying additional scan for 192.168.1.2...
+
+Trying additional scan for 192.168.0.3...
+
+Trying additional scan for 192.168.1.3...
+
+Trying additional scan for 192.168.0.4...
+
+Trying additional scan for 192.168.1.4...
+
+Trying additional scan for 192.168.0.5...
+
+Trying additional scan for 192.168.1.5...
+
+Trying additional scan for 192.168.0.6...
+
+Trying additional scan for 192.168.1.6...
+
+Trying additional scan for 192.168.0.7...
+
+Trying additional scan for 192.168.1.7...
+
+Trying additional scan for 192.168.0.8...
+
+Trying additional scan for 192.168.1.8...
+
+Trying additional scan for 192.168.0.9...
+
+Trying additional scan for 192.168.1.9...
+
+Trying additional scan for 192.168.0.10...
+
+Trying additional scan for 192.168.1.10...
+
+Trying additional scan for 192.168.0.11...
+
+Trying additional scan for 192.168.1.11...
+
+Trying additional scan for 192.168.0.12...
+
+Trying additional scan for 192.168.1.12...
+
+Trying additional scan for 192.168.0.13...
+
+Trying additional scan for 192.168.1.13...
+
+Trying additional scan for 192.168.0.14...
+
+Trying additional scan for 192.168.1.14...
+
+Trying additional scan for 192.168.0.15...
+
+Trying additional scan for 192.168.1.15...
+
+Trying additional scan for 192.168.0.16...
+
+Trying additional scan for 192.168.1.16...
+
+Trying additional scan for 192.168.0.17...
+
+Trying additional scan for 192.168.1.17...
+
+Trying additional scan for 192.168.0.18...
+
+Trying additional scan for 192.168.1.18...
+
+Trying additional scan for 192.168.0.19...
+
+Trying additional scan for 192.168.1.19...
+
+Trying additional scan for 192.168.0.20...
+
+Trying additional scan for 192.168.1.20...
+
+Trying additional scan for 192.168.0.100...
+
+Trying additional scan for 192.168.1.100...
+
+Trying additional scan for 192.168.0.101...
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.0.102...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.0.103...
+
+Trying additional scan for 192.168.1.103...
+
+Trying additional scan for 192.168.0.104...
+
+Trying additional scan for 192.168.1.104...
+
+Trying additional scan for 192.168.0.105...
+
+Trying additional scan for 192.168.1.105...
+
+Trying additional scan for 192.168.0.106...
+
+Trying additional scan for 192.168.1.106...
+
+Trying additional scan for 192.168.0.107...
+
+Trying additional scan for 192.168.1.107...
+
+Trying additional scan for 192.168.0.108...
+
+Trying additional scan for 192.168.1.108...
+
+Trying additional scan for 192.168.0.109...
+
+Trying additional scan for 192.168.1.109...
+
+Trying additional scan for 192.168.0.110...
+
+Trying additional scan for 192.168.1.110...
+
+Trying additional scan for 192.168.0.254...
+
+Trying additional scan for 192.168.1.254...
+
+Trying additional scan for 192.168.0.255...
+
+Trying additional scan for 192.168.1.255...
+Capturing network traffic...
+
+New HTTPS connection:
+Destination: ec2-34-205-240-177.compute-1.amazonaws.com (34.205.240.177)
+Log entry written to network_log.json
+
+Traffic Statistics:
+IP: 192.168.0.108
+  Bytes: 39055
+  Packets: 110
+IP: 76.223.12.21
+  Bytes: 9820
+  Packets: 45
+IP: 49.12.17.4
+  Bytes: 156
+  Packets: 2
+IP: 54.75.196.242
+  Bytes: 1383
+  Packets: 5
+IP: 34.205.240.177
+  Bytes: 6175
+  Packets: 12
+IP: 162.247.243.29
+  Bytes: 576
+  Packets: 3
+IP: 54.144.164.222
+  Bytes: 854
+  Packets: 6
+IP: 134.224.240.217
+  Bytes: 273
+  Packets: 1
+IP: 13.248.241.7
+  Bytes: 896
+  Packets: 4
+
+Waiting 30 seconds until next scan...
+
+[2025-02-08 22:32:46] Scanning network...
+Scanning networks: 192.168.0.0/24, 192.168.1.0/24
+
+Scanning 192.168.0.0/24...
+
+Received 1157 packets, got 2 answers, remaining 254 packets
+
+Processing responses...
+
+Analyzing device: 192.168.0.1
+Found device: 192.168.0.1 (34:2c:c4:1b:64:5e)
+Vendor MAC: 342CC4
+Open ports: 80 (HTTP (Web Server))
+
+Analyzing device: 192.168.0.164
+Found device: 192.168.0.164 (b6:d9:5c:fa:a2:0a)
+Vendor MAC: B6D95C
+
+Scanning 192.168.1.0/24...
+
+Received 1286 packets, got 0 answers, remaining 256 packets
+
+Processing responses...
+
+Trying additional scan for 192.168.1.1...
+
+Trying additional scan for 192.168.0.2...
+
+Trying additional scan for 192.168.1.2...
+
+Trying additional scan for 192.168.0.3...
+
+Trying additional scan for 192.168.1.3...
+
+Trying additional scan for 192.168.0.4...
+
+Trying additional scan for 192.168.1.4...
+
+Trying additional scan for 192.168.0.5...
+
+Trying additional scan for 192.168.1.5...
+
+Trying additional scan for 192.168.0.6...
+
+Trying additional scan for 192.168.1.6...
+
+Trying additional scan for 192.168.0.7...
+
+Trying additional scan for 192.168.1.7...
+
+Trying additional scan for 192.168.0.8...
+
+Trying additional scan for 192.168.1.8...
+
+Trying additional scan for 192.168.0.9...
+
+Trying additional scan for 192.168.1.9...
+
+Trying additional scan for 192.168.0.10...
+
+Trying additional scan for 192.168.1.10...
+
+Trying additional scan for 192.168.0.11...
+
+Trying additional scan for 192.168.1.11...
+
+Trying additional scan for 192.168.0.12...
+
+Trying additional scan for 192.168.1.12...
+
+Trying additional scan for 192.168.0.13...
+
+Trying additional scan for 192.168.1.13...
+
+Trying additional scan for 192.168.0.14...
+
+Trying additional scan for 192.168.1.14...
+
+Trying additional scan for 192.168.0.15...
+
+Trying additional scan for 192.168.1.15...
+
+Trying additional scan for 192.168.0.16...
+
+Trying additional scan for 192.168.1.16...
+
+Trying additional scan for 192.168.0.17...
+
+Trying additional scan for 192.168.1.17...
+
+Trying additional scan for 192.168.0.18...
+
+Trying additional scan for 192.168.1.18...
+
+Trying additional scan for 192.168.0.19...
+
+Trying additional scan for 192.168.1.19...
+
+Trying additional scan for 192.168.0.20...
+
+Trying additional scan for 192.168.1.20...
+
+Trying additional scan for 192.168.0.100...
+
+Trying additional scan for 192.168.1.100...
+
+Trying additional scan for 192.168.0.101...
+
+Trying additional scan for 192.168.1.101...
+
+Trying additional scan for 192.168.0.102...
+
+Trying additional scan for 192.168.1.102...
+
+Trying additional scan for 192.168.0.103...
+
+Trying additional scan for 192.168.1.103...
